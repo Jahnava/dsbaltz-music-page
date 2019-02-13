@@ -58,7 +58,7 @@
 }
 
 .col, .col-6{
-  height: 550px;
+  height: auto;
   margin: 1%;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .col-6 {
-  background-color: blue;
+  background-color: #001a33;
 }
 
 #columns{
@@ -87,7 +87,6 @@
 
 .resp-container {
     position: relative;
-    overflow: hidden;
     padding-top: 56.25%;
 }
 
