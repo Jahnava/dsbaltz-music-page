@@ -35,7 +35,8 @@
               <a class="nav-link" href="/html/demos.html">Demos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href = "mailto: dsbaltz@gmail.com">Contact</a>
+              <!-- <a class="nav-link" href = "mailto: dsbaltz@gmail.com">Contact</a> -->
+              <a class="nav-link" href = "/html/form.html">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.facebook.com/dascobaz/"><i class="fab fa-facebook-square"></i></a>
@@ -96,6 +97,37 @@
       </div>
    </div>
    <div id='info-form' class="col text-center">
+     <div id="form">
+  <p id="description">
+    We would love to hear from you.
+  </p>
+  <form id="survey-form">
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for="name">Name: </label>
+      </div>
+      <div class="rightTab">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Name" required>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="email-label" for="email">Email: </label>
+      </div>
+      <div class="rightTab">
+        <input type="email" name="email" id="email" class="input-field" required placeholder="Email">
+      </div>
+    </div>
+     <div class="rowTab">
+      <div class="labels">
+        <label for="comments">How can we help you?</label>
+      </div>
+      <div class="rightTab">
+        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your text here"></textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit" href='https://www.freecodecamp.com/email-submit'>Submit</button>
+  </form>
       <a href="/html/demos.html"><img src="/images/side-banner.png" class="img-fluid" alt="Responsive image"></a>
   </div>
 
